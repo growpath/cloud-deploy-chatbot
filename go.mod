@@ -1,4 +1,4 @@
-module github.com/GoogleCloudPlatform/cloud-deploy-chatbot
+module github.com/growpath/cloud-deploy-chatbot
 
 go 1.16
 
