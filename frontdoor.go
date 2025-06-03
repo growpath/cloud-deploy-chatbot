@@ -33,14 +33,14 @@ var (
 	chatApp   string
 	theBot    bot.Bot
 )
-port := os.Getenv("PORT")
-if port == "" {
-        port = "8080"
-   }
+
 // init is used to make it easier to access secrets and to adapt the code
 // to use other chat apps.
 func init() {
-
+	port := os.Getenv("PORT")
+	if port == "" {
+        	port = "8080"
+   	}
 	var found, found2, found3 bool
 
 	chatToken, found = os.LookupEnv("TOKEN")
