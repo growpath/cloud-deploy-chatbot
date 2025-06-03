@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/GoogleCloudPlatform/cloud-deploy-chatbot/bot"
-	"github.com/GoogleCloudPlatform/cloud-deploy-chatbot/gcpclouddeploy"
+	"github.com/growpath/cloud-deploy-chatbot/bot"
+	"github.com/growpath/cloud-deploy-chatbot/gcpclouddeploy"
 )
 
 var (
