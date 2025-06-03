@@ -11,10 +11,10 @@ COPY frontdoor.go ./
 COPY bot/ ./
 
 # Build
-RUN CGO_ENABLED=0 GOOS=linux go build -o /gcp-notification
+RUN go build -o ./gcp-notification
 
 
 EXPOSE 8080
 
 # Run
-CMD ["/gcp-notification"]
+CMD ["./gcp-notification"]
