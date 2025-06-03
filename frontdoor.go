@@ -22,7 +22,8 @@ import (
 	"log"
 	"os"
 	"strings"
-
+	"github.com/GoogleCloudPlatform/cloud-deploy-chatbot/bot"
+	"github.com/GoogleCloudPlatform/cloud-deploy-chatbot/gcpclouddeploy"
 
 )
 
