@@ -11,7 +11,7 @@ COPY frontdoor.go ./
 COPY bot/ ./
 
 # Build
-RUN go build -o ./gcp-notification
+RUN go build -o ./gcp-notification .
 
 
 EXPOSE 8080
